@@ -28,9 +28,6 @@ body main .card__title {
   font-size: 0.75rem;
   letter-spacing: 0.4em;
   margin: 3.5em 0 2em;
-  /* &__number {
-
-  } */
 }
 body main .card__advice {
   font-weight: 800;
