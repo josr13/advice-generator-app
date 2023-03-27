@@ -19,8 +19,8 @@ This is my solution to the [Advice generator app challenge on Frontend Mentor](h
 
 ### Links
 
-- Solution URL: [Frontend Mentor]()
-- Live Site URL: [GitHub Pages]()
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-advice-generator-app-using-fetch-api-sass-flexbox-and-bem-WwPMbvUjp3)
+- Live Site URL: [GitHub Pages](https://josr13.github.io/advice-generator-app/)
 
 ## My process
 
@@ -32,6 +32,7 @@ This is my solution to the [Advice generator app challenge on Frontend Mentor](h
 - Sass variables
 - Sass partial files
 - JavaScript
+- Fetch API
 - Mobile-first workflow
 - BEM methodology
 
