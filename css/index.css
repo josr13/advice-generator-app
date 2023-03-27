@@ -64,4 +64,39 @@ body main .card__button:active {
 }
 body footer.attribution {
   display: none;
+}
+
+@media only screen and (min-width: 1440px) {
+  body {
+    height: 100vh;
+  }
+  body main .card {
+    height: 40vh;
+    width: 37vw;
+    border-radius: 16px;
+  }
+  body main .card__title {
+    font-size: 0.9rem;
+  }
+  body main .card__advice {
+    font-size: 28px;
+    margin: 0 1.5em;
+  }
+  body main .card__divider--mobile {
+    display: none;
+  }
+  body main .card__divider--desktop {
+    display: block;
+    position: absolute;
+    bottom: 67px;
+  }
+  body footer.attribution {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    font-size: 1rem;
+  }
+  body footer.attribution a {
+    color: hsl(150, 100%, 66%);
+  }
 }/*# sourceMappingURL=index.css.map */
