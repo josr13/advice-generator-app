@@ -1,1 +1,64 @@
-/*# sourceMappingURL=index.css.map */
+body {
+  background: hsl(218, 23%, 16%);
+  color: hsl(193, 38%, 86%);
+  font-family: "Manrope", sans-serif;
+  font-size: 28px;
+  margin: 0;
+  padding: 0;
+}
+body main {
+  height: 85vh;
+  display: flex;
+}
+body main .card {
+  background-color: hsl(217, 19%, 24%);
+  height: 46vh;
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  border-radius: 10px;
+}
+body main .card__title {
+  font-weight: 800;
+  text-transform: uppercase;
+  color: hsl(150, 100%, 66%);
+  font-size: 0.75rem;
+  letter-spacing: 0.4em;
+  margin: 3.5em 0 2em;
+}
+body main .card__advice {
+  font-weight: 800;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0 1em;
+}
+body main .card__advice__quote {
+  font-weight: 800;
+}
+body main .card__divider--mobile {
+  position: absolute;
+  bottom: 67px;
+}
+body main .card__divider--desktop {
+  display: none;
+}
+body main .card__button {
+  background: hsl(150, 100%, 66%);
+  border: none;
+  border-radius: 50%;
+  padding: 20px;
+  font-size: 0;
+  position: absolute;
+  bottom: -32px;
+  cursor: pointer;
+}
+body main .card__button__icon {
+  margin: 0;
+  padding: 0;
+}
+body footer.attribution {
+  display: none;
+}/*# sourceMappingURL=index.css.map */

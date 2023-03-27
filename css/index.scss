@@ -1,1 +1,82 @@
 @import 'variables';
+
+body {
+    background: $dark-blue;
+    color: $light-cyan;
+    font-family: $font-family;
+    font-size: $font-size;
+    margin: 0;
+    padding: 0;
+
+    main {
+        height: 85vh;
+        display: flex;
+
+        .card {
+            background-color: $dark-grayish-blue;
+            height: 46vh;
+            width: 90vw;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            border-radius: 10px;
+
+            &__title {
+                font-weight: 800;
+                text-transform: uppercase;
+                color: $neon-green;
+                font-size: 0.75rem;
+                letter-spacing: 0.4em;
+                margin: 3.5em 0 2em;
+
+                &__number {
+
+                }
+            }
+
+            &__advice {
+                font-weight: 800;
+                font-size: 1.5rem;
+                text-align: center;
+                margin: 0 1em;
+                
+                &__quote {
+                    font-weight: 800;
+                }
+            }
+            
+            &__divider {
+                &--mobile {
+                    position: absolute;
+                    bottom: 67px;
+                }
+
+                &--desktop {
+                    display: none;
+                }
+            }
+
+            &__button {
+                background: $neon-green;
+                border: none;
+                border-radius: 50%;
+                padding: 20px;
+                font-size: 0;
+                position: absolute;
+                bottom: -32px;
+                cursor: pointer;
+
+                &__icon {
+                    margin: 0;
+                    padding: 0;
+                }
+            }
+        }
+    }
+
+    footer.attribution {
+        display: none;
+    }
+}
