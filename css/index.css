@@ -28,6 +28,9 @@ body main .card__title {
   font-size: 0.75rem;
   letter-spacing: 0.4em;
   margin: 3.5em 0 2em;
+  /* &__number {
+
+  } */
 }
 body main .card__advice {
   font-weight: 800;
@@ -58,6 +61,9 @@ body main .card__button {
 body main .card__button__icon {
   margin: 0;
   padding: 0;
+}
+body main .card__button:active {
+  box-shadow: 0px 0px 40px 0px hsl(150, 100%, 66%);
 }
 body footer.attribution {
   display: none;
