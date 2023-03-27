@@ -15,7 +15,7 @@ This is my solution to the [Advice generator app challenge on Frontend Mentor](h
 
 ### Screenshot
 
-![Interactive card details form desktop screenshot](images/screenshot.png)
+![Advice generator app form desktop screenshot](images/screenshot.png)
 
 ### Links
 
