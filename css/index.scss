@@ -83,9 +83,8 @@ body {
 
 @media only screen and (min-width: 1440px) {
     body {
-        height: 100vh;
-
         main {
+            height: 100vh;
             .card {
                 height: 40vh;
                 width: 37vw;

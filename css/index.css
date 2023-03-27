@@ -67,7 +67,7 @@ body footer.attribution {
 }
 
 @media only screen and (min-width: 1440px) {
-  body {
+  body main {
     height: 100vh;
   }
   body main .card {
